@@ -1,3 +1,6 @@
+//Ejercicio 2
+//Modificar el ejercicio anterior usando File System para grabar la tabla del 5 en un archivo .txt
+
 const multiplicando = 5;
 let result = "";
 for(let i = 1; i < 11; i++){
