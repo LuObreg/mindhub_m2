@@ -1,0 +1,22 @@
+{
+  "name": "ejercicio5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejercicio5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuObreg/mindhub_m2.git"
+  },
+  "author": "Lucia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuObreg/mindhub_m2/issues"
+  },
+  "homepage": "https://github.com/LuObreg/mindhub_m2#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
