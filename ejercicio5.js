@@ -1,5 +1,5 @@
 //Ejercicio 5
-//Crear una loop for que muestre en consola la tabla del 5
+//Crear una loop for que muestre en consola la tabla del 5. Usar colors para agregar un título
 
 var colors = require('colors');
 

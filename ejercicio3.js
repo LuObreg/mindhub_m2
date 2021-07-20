@@ -1,24 +1,11 @@
 //Ejercicio 3, se importa el ejercicio anterior luego de haber convertido la función a una promesa
 const tabla = require('./ejercicio4');
+const argv = require('./Config/yargs');
 
-const argv = require('yargs')
-                .option('b',{
-                alias: 'base',
-                type: 'number',
-                demandOption: true
-            })
-                .check((argv) => {
-                    if (argv.b < 1 || argv.b > 20){
-                        throw new Error("Debes colocar un valor de base entre 1 y 20");
-                    }
-                    else{
-                        return true
-                    }
-                })
-            .argv;
+const base = argv.argv.b;
 console.clear();
-console.log(argv);
-console.log('base: yargs', argv.b)
+console.log(argv.argv);
+console.log('base: yargs', base)
 
-var multiplicando = argv.b;
+var multiplicando = base;
 tabla.printTabla(multiplicando);
