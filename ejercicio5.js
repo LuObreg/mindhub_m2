@@ -4,7 +4,15 @@
 var colors = require('colors');
 
 const multiplicando = 5;
-console.log('La tabla del 5'.rainbow); // rainbow
+
+colors.setTheme({
+    content: ['blue', 'bgWhite', 'bold'],
+    title: ['white', 'bgMagenta', 'bold'],
+    spechar: ['magenta', 'bgWhite', 'bold']
+
+  });
+
+console.log(' ======*****====== \n  La tabla del 5   \n ======*****======  '.title); // rainbow
 for(let i = 1; i < 11; i++){
-    console.log (`${multiplicando} x ${i} = ${i * multiplicando}`);
+    console.log (`  ♦   ${multiplicando}`.content + ' x '.spechar + `${i}`.content + " = ".spechar + `${i * multiplicando}`.content + "   ♦  ".spechar);
 }
